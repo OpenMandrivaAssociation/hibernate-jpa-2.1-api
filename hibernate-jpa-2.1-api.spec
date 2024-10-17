@@ -8,7 +8,7 @@ Version:       1.0.0
 Release:       0.3.Draft.16.0%{?dist}
 Summary:       Java Persistence 2.1 (JSR 338) API
 License:       EPL and BSD
-URL:           http://www.hibernate.org/
+URL:           https://www.hibernate.org/
 Source0:       https://github.com/hibernate/hibernate-jpa-api/archive/2.1-%{namedversion}.tar.gz
 Source1:       http://repo1.maven.org/maven2/org/hibernate/javax/persistence/%{name}/%{namedversion}/%{name}-%{namedversion}.pom
 # fix mvn build, this project uses the default Gradle to build
